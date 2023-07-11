@@ -1,7 +1,7 @@
 <template>
 <div class="table-container">
     <div v-if="error" class="error-message">
-        Hubo un error al realizar la búsqueda. Por favor, inténtalo de nuevo.
+        Hubo un error al obtener los datos. Por favor, inténtalo de nuevo.
     </div>
     <table v-if="items.length > 0" class="data-table" :aria-describedby="descriptionId">
         <caption id="descriptionId" class="table-description">{{ description }}</caption>
