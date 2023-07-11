@@ -1,4 +1,4 @@
-# Documentacion del componente 
+# Documentacion del componente DataTable
 ## Descripcion:
 Este componente se utiliza para crear una tabla de datos dinámica que se llena con datos provenientes de una API. El componente es responsivo, tiene estilos incorporados y gestiona los errores de petición HTTP.
 
