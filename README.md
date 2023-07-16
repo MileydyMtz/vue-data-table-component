@@ -45,7 +45,7 @@ El componente *ProductGallery* tiene tres propiedades:
 Para utilizar este componente, primero se debe descargar el archivo *DataTable.vue* que se encuentra dentro de *src/components* y agregarlo al proyecto donde se reutilizara. 
 Posteriormente se debe importar y usarlo en la plantilla mediante la etiqueta *DataTable*. Asegúrese de pasar las propiedades *api*, *displayHeaders* y *description*:
 
-A continuación un ejemplo:
+A continuación, un ejemplo:
 
 ```vue
 <template>
