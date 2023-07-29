@@ -15,17 +15,17 @@ A continuación, se enlistan las tecnologías y librerías utilizadas en el desa
 ## Características del componente
 ### Props
 El componente *ProductGallery* tiene tres propiedades:
-* **api** (String) - La URL de la API desde donde se obtendrán los datos.
-* **displayHeaders** (Array) - Los nombres de las columnas que se mostrarán en la tabla. Estos deben corresponder a las claves de los objetos devueltos por la API.
-* **description** (String) - Una descripción textual para la tabla que se presentará a los usuarios.
+* **api** (String): La URL de la API desde donde se obtendrán los datos.
+* **displayHeaders** (Array): Los nombres de las columnas que se mostrarán en la tabla. Estos deben corresponder a las claves de los objetos devueltos por la API.
+* **description** (String): Una descripción textual para la tabla que se presentará a los usuarios.
 
 ### Funciones
 * **fetchData**: Esta función se encarga de obtener los datos de la API y manejar posibles errores durante la solicitud. Se ejecuta cuando el componente se monta gracias a onMounted(fetchData).
 
 ### Variables reactivas
-* **items**: (Array) Es la lista de elementos obtenidos de la API.
-* **error**: (Boolean) Es un indicador de si ocurrió un error durante la solicitud a la API.
-* **descriptionId**: (String) Es el ID del elemento de la descripción de la tabla.
+* **items**: (Array): Es la lista de elementos obtenidos de la API.
+* **error**: (Boolean): Es un indicador de si ocurrió un error durante la solicitud a la API.
+* **descriptionId**: (String): Es el ID del elemento de la descripción de la tabla.
 
 ### CSS
 * Los estilos están definidos en la sección de <style> y usan la extensión .scss.
