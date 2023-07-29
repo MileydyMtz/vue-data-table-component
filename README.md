@@ -23,9 +23,9 @@ El componente *ProductGallery* tiene tres propiedades:
 * **fetchData**: Esta función se encarga de obtener los datos de la API y manejar posibles errores durante la solicitud. Se ejecuta cuando el componente se monta gracias a onMounted(fetchData).
 
 ### Variables reactivas
-* **items**: (Array): Es la lista de elementos obtenidos de la API.
-* **error**: (Boolean): Es un indicador de si ocurrió un error durante la solicitud a la API.
-* **descriptionId**: (String): Es el ID del elemento de la descripción de la tabla.
+* **items** (Array): Es la lista de elementos obtenidos de la API.
+* **error** (Boolean): Es un indicador de si ocurrió un error durante la solicitud a la API.
+* **descriptionId** (String): Es el ID del elemento de la descripción de la tabla.
 
 ### CSS
 * Los estilos están definidos en la sección de <style> y usan la extensión .scss.
