@@ -27,7 +27,7 @@ El componente *ProductGallery* tiene tres propiedades:
 * **error** (Boolean): Es un indicador de si ocurrió un error durante la solicitud a la API.
 * **descriptionId** (String): Es el ID del elemento de la descripción de la tabla.
 
-### CSS
+### Estilos
 * Los estilos están definidos en la sección de <style> y usan la extensión .scss.
 * Los estilos están "scoped", lo que significa que solo se aplicarán a este componente y no afectarán a otros componentes de la aplicación donde se reutilice.
 * La tabla es responsive y se adapta al tamaño de la pantalla.
@@ -36,9 +36,9 @@ El componente *ProductGallery* tiene tres propiedades:
 * Se muestra un mensaje de error estilizado en caso de que haya algún error en la solicitud a la API.
 
 ### Notas
-* Asegúrese de que las claves que pasa a *displayHeaders* coincidan con las claves de los objetos que devuelve la API.
-* Depende de *axios* para hacer solicitudes HTTP a la API.
-* Se utiliza la función *ref* de Vue 3 se utiliza para crear una variable reactiva
+* Es necesario asegúrese de que las claves que se pasan a *displayHeaders* coincidan con las claves de los objetos que devuelve la API.
+* Este componente depende  de *axios* para hacer solicitudes HTTP a la API.
+* Se utiliza la función *ref* de Vue 3 para crear una variable reactiva
 * Se utiliza la función *onMounted* para llamar a la función *fetchData* después de que se ha montado el componente.
 
 ## Uso del componente
@@ -85,7 +85,7 @@ La implementación de este componente se puede ver de la siguiente forma:
 
 
 ## Pruebas
-Las pruebas se han implementado utilizando la biblioteca vitest para correr las pruebas y @vue/test-utils para montar el componente. Además se usa axios-mock-adapter para simular las respuestas de la API.
+Se utiliza la biblioteca Vitest para correr las pruebas y @vue/test-utils para montar el componente. Además, se usa axios-mock-adapter para simular las respuestas de la API.
 
 A continuación, se muestran las pruebas implementadas:
 * **renders properly**: Esta prueba verifica que el componente se renderiza correctamente con los datos proporcionados por la API simulada. Asegura que la tabla se llene con los datos correctos y que se muestre la descripción proporcionada.
